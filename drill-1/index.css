@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 150px;
+    background-color: rgb(68, 68, 68);
+}
+
+.right-section,
+.left-section {
+    background-color: gray;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 130px;
+}
+
+.right-section {
+    right: 0;
+    z-index: -1;
+}
+
+.left-section {
+    left: 0;
+    z-index: -1;
+}
+
+.bottom-section {
+    background-color: darkgray;
+    position: fixed;
+    height: 65px;
+    bottom: 0;
+    left: 130px;
+    right: 130px;
+}
